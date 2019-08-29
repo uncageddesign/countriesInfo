@@ -45,8 +45,13 @@ export default {
 </script>
 
 <style lang="css" scoped>
+template {
+  font-family: 'Lato', sans-serif;
+}
+
 h1 {
-  margin-left: 190px;
+  margin-left: 280px;
+  font-family: 'Lato', sans-serif;
 }
 
 .container {
@@ -54,23 +59,25 @@ h1 {
   width: 800px;
   height: 600px;
   padding: 20px;
-  margin-left: 190px;
+  margin-left: 280px;
   display: flex;
   justify-content: space-between;
   z-index: 2;
+  font-family: 'Lato', sans-serif;
 }
 
 .sidenav {
   height: 100%;
-  width: 160px;
+  width: 260px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: darkgrey;
+  background-color: steelblue;
   overflow-x: hidden;
   padding-top: 20px;
   color: whitesmoke;
+  font-family: 'Lato', sans-serif;
 }
 
 </style>
