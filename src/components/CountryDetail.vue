@@ -1,9 +1,9 @@
 <template lang="html">
   <div class="details" v-if="country">
     <h3>{{country.name}}</h3>
-    <p>{{country.region}}</p>
-    <p>{{country.capital}}</p>
-    <p>{{country.popular}}</p>
+    <p>Region: {{country.region}}</p>
+    <p>Capital: {{country.capital}}</p>
+    <p>Population: {{country.population}}</p>
     <img :src="country.flag" alt="flag" class="flag">
   </div>
 </template>
@@ -24,6 +24,6 @@ export default {
 }
 
 .flag {
-  max-width: 200px;
+  max-width: 250px;
 }
 </style>
